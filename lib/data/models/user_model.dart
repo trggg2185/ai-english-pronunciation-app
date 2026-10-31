@@ -29,3 +29,4 @@ class UserModel {
         createdAt: DateTime.parse(map['createdAt'] as String),
       );
 }
+

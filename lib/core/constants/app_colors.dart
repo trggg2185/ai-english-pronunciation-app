@@ -46,3 +46,4 @@ class AppColors {
     return wrongRedLight;
   }
 }
+

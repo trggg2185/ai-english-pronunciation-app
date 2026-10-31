@@ -72,3 +72,4 @@
 - **Độ trễ trung bình:** **1.23 giây** (đạt mục tiêu kỹ thuật đề ra < 2.0 giây).
 - **Trực quan hóa UI:** 100% người dùng thử nghiệm hiểu ngay ý nghĩa 3 màu sắc (Xanh lá >= 80, Vàng >= 50, Đỏ < 50) mà không cần hướng dẫn bằng lời.
 - **Tính năng chạm vào âm vị (Tap-to-guide):** Được đánh giá là tính năng hữu ích nhất khi 5/5 người dùng bấm vào xem khẩu hình lưỡi và bấm nghe lại phát âm mẫu để tự sửa sai.
+

@@ -27,3 +27,4 @@ class StreakModel {
         activeDates: List<String>.from(map['activeDates'] as List<dynamic>),
       );
 }
+
