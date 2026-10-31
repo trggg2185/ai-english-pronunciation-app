@@ -1,3 +1,6 @@
+import 'phoneme_analysis.dart';
+
+class PracticeSessionModel {
 import 'dart:convert';
 import 'phoneme_analysis.dart';
 
@@ -30,6 +33,25 @@ class PracticeSessionModel {
     required this.practicedAt,
     required this.audioRecordPath,
     required this.phonemeResults,
+    this.recognizedText,
+    this.accuracyScore,
+    this.fluencyScore,
+    this.completenessScore,
+  });
+
+  final String id;
+  final String sentenceOrWord;
+  final String standardIpa;
+  final double score;
+  final int durationSeconds;
+  final DateTime practicedAt;
+  final String audioRecordPath;
+  final List<PhonemeAnalysis> phonemeResults;
+  final String? recognizedText;
+  final double? accuracyScore;
+  final double? fluencyScore;
+  final double? completenessScore;
+}
   });
 
   Map<String, dynamic> toMap() => {

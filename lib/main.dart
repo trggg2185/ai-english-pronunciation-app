@@ -7,6 +7,10 @@ import 'core/constants/app_colors.dart';
 import 'features/feedback_exercise/data/mock_feedback_data.dart';
 import 'features/feedback_exercise/screens/detailed_feedback_screen.dart';
 
+import 'features/speech_ai/screens/speech_test_screen.dart';
+
+void main() {
+  runApp(const MainApp());
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -25,6 +29,7 @@ class EngPronApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return const MaterialApp(home: SpeechTestScreen());
     return MaterialApp(
       title: AppStrings.appName,
       debugShowCheckedModeBanner: false,
